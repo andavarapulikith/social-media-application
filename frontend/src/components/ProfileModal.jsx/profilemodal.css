@@ -1,0 +1,16 @@
+.infoInput
+{
+    height: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid black;
+    width: 200px;
+}
+.infoButton
+{
+    padding: 15px;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+}

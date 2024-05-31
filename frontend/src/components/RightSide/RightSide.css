@@ -1,0 +1,58 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.navIcons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navIcons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.navIcons>a>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.sharebutton{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+    color: white;
+    border-radius: 10px;
+    background-color: #6a037e;
+    font-size: 1rem;
+    border: 0;
+}
+.sharebutton:hover
+{
+    color:#6a037e;
+    background-color: transparent;
+    border: 2px solid #6a037e;
+}
+
+.homebtn
+{
+    background-color: #6a037e;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 0;
+}
+.homebtn:hover
+{
+    background-color: transparent;
+    color:#6a037e;
+    border: 2px solid #6a037e;
+    font-weight: bold;
+}

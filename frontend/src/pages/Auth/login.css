@@ -1,0 +1,89 @@
+
+.login
+{
+    width: 500px;
+    height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    padding: 10px;
+}
+.heading
+{
+    color: #4f005f;
+    text-align: center;
+}
+.input{
+    padding: 10px;
+}
+.input label
+{
+    display: block;
+    font-weight: bold;
+    flex: 1;
+    color: #4f005f;
+    margin-bottom: 0.7rem;
+}
+.input input
+{
+    display: block;
+    width: 90%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 3px;
+    color: #4f005f;
+    font-size: 1rem;
+}
+.input input:hover,.input input:active
+{
+    border: 2px solid #4f005f;
+    background: #f5ddfa;
+}
+.actions
+{
+    padding: 20px;
+}
+.actions button
+{
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+    margin: 5px;
+}
+button:hover,
+  button:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+  .actions a
+  {
+    color: white;
+    text-decoration: none;
+
+  }
+
+  button:disabled,
+  button:focus:disabled,
+  button:hover:disabled,
+  button:active:disabled {
+    background: #ccc;
+    border-color: #ccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+
+  .invalid input {
+    border-color: red;
+    background: #fbdada;
+  }
